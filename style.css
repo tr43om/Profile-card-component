@@ -1,0 +1,90 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.bg-top {
+    width: 60em;
+    position: absolute;
+    top: -430px;
+    left: -90px;
+}
+.bg-bottom {
+    width: 60em;
+    position: absolute;
+    top: 430px;
+    right: -90px;
+}
+
+.profile {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 28.5em;
+    height: 31em;
+    background-color: #fff;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+.profile__bg {
+    width: 100%;
+}
+
+.profile__image {
+    position: absolute;
+    top: 36%;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    width: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.profile__info {
+    text-align: center;
+    margin-top: 20%;
+    line-height: 0.5;
+}
+
+.profile__info-name {
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.profile__info-age {
+    font-weight: 400;
+    color: hsl(0, 0%, 59%)
+}
+
+.profile__info-city {
+    font-size: 18px;
+    color: hsl(0, 0%, 59%)
+}
+
+.profile__stats {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid hsl(0, 0%, 59%);
+    text-align: center;
+    line-height: 0.5;
+    padding: 15px;
+}
+
+.profile__stats-followers, 
+.profile__stats-likes,
+.profile__stats-photos {
+    padding: 10px 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+.profile__stats-followers > p, 
+.profile__stats-likes > p,
+.profile__stats-photos > p {
+    font-weight: 700;
+    font-size: 24px;
+}
